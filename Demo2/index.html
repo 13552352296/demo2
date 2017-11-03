@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>的夜读·记</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--Common CSS-->
+    <link rel="stylesheet" href="css/common.css">
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--Media Pad Css-->
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 321px) and (max-width: 480px)" href="css/media-pad.css">
+    <!--Media Mobile CSS-->
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="css/media-mobile.css"/>
+    <!--jQuery Version V1.12.3-->
+    <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      function next(){
+        alert("谢谢观赏！");
+      }
+    </script>
+</head>
+    <body>
+
+    <!--First page-->
+    <div class="loadinghide auto">
+        <img data-src="img/loading-img.png" alt="img/loading-img.png">
+        <img data-src="img/0.png" alt="img/0.png">
+        <img data-src="img/1.png" alt="img/1.png">
+        <img data-src="img/2.png" alt="img/2.png">
+        <img data-src="img/3.png" alt="img/3.png">
+        <img data-src="img/4.png" alt="img/4.png">
+        <img data-src="img/5.png" alt="img/5.png">
+        <img data-src="img/6.png" alt="img/6.png">
+        <img data-src="img/7.png" alt="img/7.png">
+        <img data-src="img/8.png" alt="img/8.png">
+        <img data-src="img/9.png" alt="img/9.png">
+    </div>
+
+    <!--Logo-->
+    <div class="logo auto">
+        <img data-src="img/logo.png" alt="logo.png">
+    </div>
+
+    <!--Sound-->
+    <audio id="music" src="media/music.mp3" loop></audio>
+    <div class="music auto">
+        <img class="music-on" src="img/music_on.png">
+        <img class="music-off" src="img/music_off.png" style="display:none">
+    </div>
+
+    <!--Second page-->
+    <div class="index pos100 hidden" id="index">
+        <img class="pos animated4 index-tit" data-src="img/index-title.png" alt="index-title.png">
+        <img class="pos animated4 index-text" data-src="img/index-text.png" alt="index-text.png">
+        <div class="indextext">
+            <img class="pos index-textimg index-text3" data-src="img/text-1.png" alt="text-1.png">
+            <img class="pos index-textimg index-text2" data-src="img/text-2.png" alt="text-2.png">
+            <img class="pos index-textimg index-text1" data-src="img/text-3.png" alt="text-3.png">
+        </div>
+
+        <div class="pos animated4 index-btn">
+            <div class="index-btnbox auto">
+                <a href="javascript:;" title="开启时光之旅">
+                    <img class="index-btnshadow" data-src="img/index-sub-shadow.png" alt="index-sub-shadow.png">
+                    <img data-src="img/index-sub.png" alt="index-sub.png">
+                </a>
+            </div>
+            <div class="index-btntext">
+                <span>33470</span>位时光旅人已参与
+            </div>
+        </div>
+    </div>
+
+    <!--Third page-->
+    <div class="page1 pos100 hidden" id="page1">
+        <div class="page1bg pos100">
+            <img data-src="img/page1-bg.jpg" alt="page1-bg.jpg">
+        </div>
+        <div class="page1text-top animated4 page1text auto">
+            夜读已经走过<span class="span1 count">190</span>个日夜<br>
+            <span class="span2 count">36658</span>位参与者与你一起<br>
+            累积阅读时间<span class="span3 count">30000</span>分钟
+        </div>
+        <div class="page1text-bot animated4 auto">
+            <div class="page1text-botbox page1text page1text-bot-has auto">
+                有<span class="span1 count">3384</span>人和你一样<br>
+                连续打卡<span class="span2 count">5</span>天以上<br>
+                一同相伴走过那些温柔的良夜
+            </div>
+        </div>
+        <div class="page-btn page1-btn animated4 auto">
+            <a href="javascript:next()" title="下一步"><img data-src="img/page-btn.png" alt="page-btn.png"></a>
+        </div>
+    </div>
+
+    <div class="pageheadpic animated4 auto">
+        <img class="hedapicimg" data-src="img/head-pic.png" alt="head-pic.png">
+        <img data-src="img/head-shadow.png" alt="head-shadow.png">
+    </div>
+
+    <!--Load the js profile-->
+    <script type="text/javascript" src="js/loading.js"></script>
+
+    </body>
+</html>

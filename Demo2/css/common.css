@@ -1,0 +1,268 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    font-size: 62.5%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+body, div, ul, li, span, p, input, table, tr, td, h1, h2, h3, h4, h5, h6, article {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+body, html {
+    max-width: 640px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+i {
+    font-style: normal;
+}
+
+.auto {
+    height: auto;
+    overflow: hidden;
+}
+
+.hidden {
+    display: block;
+}
+
+.index {
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    z-index: 900;
+}
+
+.index-tit {
+    top: 13%;
+    left: 0;
+    opacity: 0;
+}
+
+.index-text {
+    top: 24%;
+    left: 0;
+    opacity: 0;
+}
+
+.indextext {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 25%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    perspective: 300;
+    -webkit-perspective: 300;
+}
+
+.index-textimg {
+    top: 25%;
+    width: 66%;
+    left: 17%;
+    transform: rotateX(70deg) translateZ(0px);
+    -webkit-transform: rotateX(70deg) translateZ(0px);
+    opacity: 0;
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+}
+
+.index-text3 {
+    transform: rotateX(70deg) translateZ(20px);
+    -webkit-transform: rotateX(70deg) translateZ(20px);
+}
+
+.index-btn {
+    width: 100%;
+    left: 0;
+    bottom: 7%;
+    opacity: 0;
+}
+
+.index-btnbox {
+    width: 49%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.index-btnbox img.index-btnshadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.index-btntext {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #63caf4;
+    text-shadow: 0 0 0.3rem #63caf4;
+}
+
+.loadinghide {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 31.25%;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background: #000000 url("../img/bg.jpg") no-repeat;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+.music {
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    z-index: 1000;
+    width: 13%;
+}
+
+.pos100 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pos {
+    position: absolute;
+}
+
+.pageheadpic {
+    position: absolute;
+    z-index: 899;
+    width: 30%;
+    left: 35%;
+    top: 35%;
+    opacity: 0;
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+}
+
+.pageheadpic img {
+    position: relative;
+    z-index: 5;
+}
+
+.pageheadpic img.hedapicimg {
+    z-index: 7;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    clip-path: polygon(50% 0%, 95% 24%, 95% 76%, 50% 100%, 5% 76%, 5% 24%, 50% 0%);
+    -webkit-clip-path: polygon(50% 0%, 95% 24%, 95% 76%, 50% 100%, 5% 76%, 5% 24%, 50% 0%);
+}
+
+.page1 {
+    z-index: 850;
+    background: #000;
+}
+
+.page1bg {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    opacity: 0;
+}
+
+.page1text-top {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    opacity: 0;
+}
+
+.page1text {
+    font-size: 1.4rem;
+    color: #63caf4;
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.page1text span {
+    color: #fff;
+    font-size: 2.4rem;
+    margin: 0 0.3rem;
+}
+
+.page1text-bot {
+    position: absolute;
+    left: 0;
+    top: 58%;
+    width: 100%;
+    opacity: 0;
+}
+
+.page-btn {
+    position: absolute;
+    width: 26.8%;
+    left: 50%;
+    margin-left: -13.4%;
+    bottom: 5%;
+    opacity: 0;
+}
+
+.progress {
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+
